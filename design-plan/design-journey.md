@@ -164,38 +164,39 @@ when window is resized and less than 850px:
 ### Interactivity Usability Justification (Final Submission)
 > Explain how your design effectively uses affordances, visibility, feedback, and familiarity.
 > Write a paragraph (3-5 sentences)
-
-TODO: interactivity rationale
-
+>
+>For the modal, my design effectively uses affordances because each image has a Hover function, which provides hints that if you click on the image, the modal would pop up. Furthermore, the enlarged image has a close button, which means that the users can click on it to exit out of the modal state, and can further proceed to the orginal website. It is visible because once the user clicks the image, the enlarged image pops up. Once the user clicks the closed button, the webpage returns to its orginal state. The user gets immediate feedback when they click on the image as the enlarged image pops up, and when the user clicks on the close button, where the enlarged image disappears. This would be familar to users because this is a common design pattern where users can see the image more closely.
+>For the hamburger menu, my design effectively uses affordances because on each web page on the narrow screen, there is a button that can be toggled to either show or hide the navigation menu, which indicates to the users that they can be able to use it. The actions of this is visible through the fact that the navigation menu appears and disappears when the user toggles it. The user gets immediate feedback when after toggling the menu button, the navigation menu shows and hides. This would be familar to users because this is a common design pattern for narrow screens to see the navigation menu.
 
 ### Tell Us What to Grade (Final Submission)
 > We aren't re-grading your Project 1 or 2.
 > We are only grading the interactivity you added.
 > Tell us where (what pages) we can find your interactivity and how to use it.
 > **We will only grade what you list here;** if it's not listed, we won't grade it.
-
-TODO: what should we grade
+>
+>You should grade my hamburger menu for narrow screens from any page and the modal for any image within any page. The hamburger menu only appears on the narrow screen, where there is a header of the menu button and the header. You should be able to toggle it to either close or open the navigation menu. For the modal, you should be able to hover and click on any image and it will appear. After, you can click the closing button to exit this state.
 
 
 ### Collaborators (Final Submission)
 > List any persons you collaborated with on this project.
-
-TODO: list your collaborators
+>
+>N/A
 
 
 ### Reference Resources (Final Submission)
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
+>https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+>https://www.w3schools.com/howto/howto_css_modal_images.asp
 
 
 ### Self-Reflection (Final Submission)
 > This was the first project in this class where you coded some JavaScript. What did you learn from this experience?
-
-TODO: self-reflection
+>
+>I realized how important interactivity plays a role into making a website more responsive and geared toward the audience's goals. As someone with no experience, I thought that this would be hard, but with the pseudocode and the snippet technique, it was actually pretty easy for me to do the interactivity. I realized how important it is to always design and plan before actually coding.
 
 
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
-
-TODO: self-reflection
+>
+> As the third project, I feel proud of how much that I learned within these couple of months. Compared to the first project, this one looks and feels so much more developed. It felt so interesting that I am able to code something from scratch, and despite having no coding experience before, I felt like I really enjoyed this class that I plan to take the next level class.
