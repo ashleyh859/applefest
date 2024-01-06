@@ -181,45 +181,12 @@ nav {
   display: none;
 }
 
-.faq_row {
-  display:flex;
-  flex-direction: row;
-  width:100%;
-  box-sizing: border-box;
-  }
-
-.box {
-  width:100%;
-  border-right: 1px solid;
-  text-align: left;
-  padding-left: 10px;
-  padding-right:10px;
-  box-sizing: border-box;
-  }
-
-.box h3{
-  text-align:center;
-}
-
-.box p {
-  padding-left: 30px;
-  padding-right:30px;
-}
-
 
 main {
   padding: 10px;
   height:100%;
   justify-content: space-between;
   max-width:100%;
-}
-
-article {
-  margin: 0;
-  margin:auto;
-  height:auto;
-  line-height: 2;
-  max-width: 500px;
 }
 
 /*main img {
@@ -232,46 +199,8 @@ article {
   flex-grow:1;
 }*/
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  margin:auto;
-  max-width:90%;
-}
-
-.flex-container article {
-  display: block;
-  margin: 6px;
-  text-align: left;
-  padding-left: 5px;
-  padding-right:5px;
-  padding-top: 25px;
-  flex-grow:2;
-}
-
-.flex-container article ul {
-  list-style: none;
-}
-
-.flex-container cite{
-  padding-top: 125px;
-  font-size:10px;
-}
-
 .center{
   text-align:center;
-}
-
-.flex-container img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  flex-grow: 1;
-}
-
-.flex-container article h3{
-  margin-left:10px;
-  margin-top:10px;
 }
 
 .text-section {
@@ -283,6 +212,61 @@ article {
   list-style:none;
 }
 
+.accordion {
+  margin: 0 auto;
+  width: 60vw;
+  margin-bottom:120px;
+  margin-top:0px;
+}
+
+.accordion-item {
+  background-color: #fff;
+  margin-bottom:1px;
+  border-bottom: solid 1px;
+}
+
+.accordion-header:hover {
+  background-color: #dedede;
+}
+
+
+.accordion-header {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  font-family: Lato;
+}
+
+.accordion-content {
+  font-size:15px;
+  line-height: 1.2;
+  background-color: #ffffff;
+  margin-bottom:0px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.icon {
+  font-size: 38px;
+  transition: all 0.2s ease;
+}
+
+.accessible-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 footer {
   background-color: rgba(11,10,10,.85);
@@ -318,9 +302,6 @@ main h2 {
 }
 
 main h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-  margin: 50px;
   text-align: left;
   padding-top:0px;
   padding-bottom:0px;
