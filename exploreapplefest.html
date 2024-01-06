@@ -14,28 +14,26 @@
 <body>
     <header>
         <div>
-            <nav id="widescreen">
-                <ul>
-                    <li>
-                    <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="exploreapplefest.html">Explore Apple Fest</a>
-                    </li>
-                    <li>
-                      <picture>
-                        <img src="images/apple-harvest-logo.svg" alt="">
-                      </picture>
-                      <!-- Source: Instructor provided content -->
-                    </li>
-                    <li>
-                      <a href="howtogetthere.html">How to Get There</a>
-                    </li>
-                    <li>
-                      <a href="FAQs.html">FAQs</a>
-                  </li>
-                </ul>
-            </nav>
+          <nav id="widescreen">
+            <div class="headerlogo">
+              <picture>
+                <img src="images/apple-harvest-logo.svg" alt="">
+              </picture>
+            </div>
+            <div>
+              <ul class="desktop-nav-links">
+                <li>
+                    <a href="index.html" aria-label="navigate to home"><strong>HOME</strong></a>
+                </li>
+                <li>
+                    <a href="exploreapplefest.html" aria-label="navigate to exploring Apple Fest"><strong>EXPLORE APPLE FEST</strong></a>
+                </li>
+                <li>
+                  <a href="FAQs.html"><strong>FAQS</strong></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
         <!-- Narrow Hamburger Menu -->
         <div id="header">
@@ -62,131 +60,90 @@
         </nav>
     </header>
     <main>
-        <aside>
-            <h2>Apple Harvest Festival</h2>
-            <h3>Date and Time:</h3>
-              <ul>
-                  <li>Friday, September 29: 12pm - 6pm</li>
-                  <li>Saturday, September 30: 10am - 6pm</li>
-                  <li>Sunday, October 1: 10am - 6pm</li>
-              </ul>
-            <h3>Location:</h3>
-              <p>Ithaca Commons</p>
-              <p>Join us for three days of farm-fresh bites, local crafts, live music, and fall activities for all ages.</p>
-          </aside>
-           <!-- Source: Instructor provided content -->
-
+      <div class="fullscreen-image" >
         <picture>
-            <img id="originalA" class="picture" src="images/people-eating-apples.jpg" alt="">
+          <img id="originalA" src="images/people-eating-apples.jpg" alt="">
         </picture>
-          <!-- The Modal -->
-          <div id="fullimageA" class="hidden">
-            <img id="imageA" src="images/people-eating-apples.jpg" alt="">
-              <button id="buttonA">✕</button>
-          </div>
-            <!-- Source: Instructor provided content -->
-        <article>
-                <p>
-                    <strong>Apple Harvest Festival</strong> will host plenty of <em>farmstand fresh apples and produce</em>, delectable apple and seasonal baked goods, a variety of food trucks offering tasty bites, and a <em>craft</em> fair with artisans from around the region. There will also be <em>live music and entertainment</em>, plus a <em>cider trail</em> to enjoy refreshing cider in store and plenty of great apple and <em>apples-inspired products</em> for sale inside shops in and around Downtown.
-                </p>
-                <p>
-                    With over <em>100 vendors</em> present at the festival, there are many opportunities to be introduced to the rich <em>artisan</em> and <em>culinary</em> community in Ithaca. Our food vendors feature apple-centric and other fall <em>classics</em> for you to taste, and the craft vendors offer <em>homemade goods</em> like soaps, jewelry, sculptures, clothing, and more! This is the perfect place to learn about and support Ithaca's <em>small businesses</em> that encompass the heart of the town.
-                </p>
-                 <!-- Source: Instructor provided content -->
-        </article>
-    </main>
-    <h2 class="center"> Food and Drinks</h2>
-    <div class="flex-container">
-        <picture>
-            <img id="originalB" class="picture" src="images/cider-apples-stand.jpg" alt="">
-          </picture>
-          <!-- The Modal -->
-          <div id="fullimageB" class="hidden">
-            <img id="imageB" src="images/cider-apples-stand.jpg" alt="">
-              <button id="buttonB">✕</button>
-          </div>
-            <!-- Source: Instructor provided content -->
-        <article>
-            <h3>
-                Farm Fresh Apples & Produce
-            </h3>
-                <ul>
-                    <li>Schweigarts Sugar Shack</li>
-                    <li>Schoolyard Sugarbush</li>
-                    <li>A J Teeterfarm</li>
-                    <li>Littletree Orchards</li>
-                    <li>and more!</li>
-                </ul>
-                <!-- Source: Instructor provided content -->
-            </article>
-        <article>
-            <h3>
-                Cider Houses & Wineries
-            </h3>
-                <ul>
-                    <li>Blackduck Cidery</li>
-                    <li>Redbyrd Orchard</li>
-                    <li>South Hill Cider</li>
-                    <li>New Leaf Cider Co.</li>
-                    <li>and more!</li>
-                </ul>
-                <!-- Source: Instructor provided content -->
-        </article>
-        <article>
-            <h3>
-                Food Vendors
-            </h3>
-                <ul>
-                    <li>Macarollin</li>
-                    <li>Mr.Squeeze Lemonade</li>
-                    <li>Kettle Corn Shoppe</li>
-                    <li>SPM Empanadas</li>
-                    <li>and more!</li>
-                </ul>
-                <!-- Source: Instructor provided content -->
-        </article>
-    </div>
-    <h2 class="center">Crafts</h2>
-        <div class="flex-container">
-                <picture>
-                    <img id="originalC" class="picture" src="images/craft.jpg" alt="">
-                  </picture>
-                  <!-- The Modal -->
-                  <div id="fullimageC" class="hidden">
-                    <img id="imageC" src="images/craft.jpg" alt="">
-                      <button id="buttonC">✕</button>
-                  </div>
-                <!-- Source: Instructor provided content -->
-            <article>
-                <h3>
-                    Crafters
-                </h3>
-                    <ul>
-                        <li>A&K Creations</li>
-                        <li>Alchemist's Whim</li>
-                        <li>All Forked Up Art</li>
-                        <li>Anna Pausch Studios</li>
-                        <li>Art Of Yen Ospina</li>
-                        <li>Ashley Messana Jewelry</li>
-                        <li>Black Rabbit Studio</li>
-                        <li>Blue Toucan Studios - Fairy Doors</li>
-                        <li>and more!</li>
-                    </ul>
-            </article>
-                    <!-- Source: Instructor provided content -->
+        <div class="overlay-text">
+          <h2>Ithaca Commons Apple Harvest Festival</h2>
+          <p class="additional-text">Join us for three days of farm-fresh bites, local crafts, live music, and fall activities for all ages.</p>
         </div>
-        <h2 class="center">Entertainment at Bernie Milton Pavilion</h2>
-        <div class="flex-container">
-                <picture>
-                    <img id="originalD" class="picture" src="images/bandmusic.jpg" alt="">
-                  </picture>
-                  <!-- The Modal -->
-                  <div id="fullimageD" class="hidden">
-                    <img id="imageD" src="images/bandmusic.jpg" alt="">
-                      <button id="buttonD">✕</button>
-                  </div>
+      </div>
+      <h2>Explore Apple Fest</h2>
+            <p>
+              <strong>Apple Harvest Festival</strong> will host plenty of <em>farmstand fresh apples and produce</em>, delectable apple and seasonal baked goods, a variety of food trucks offering tasty bites, and a <em>craft</em> fair with artisans from around the region. There will also be <em>live music and entertainment</em>, plus a <em>cider trail</em> to enjoy refreshing cider in store and plenty of great apple and <em>apples-inspired products</em> for sale inside shops in and around Downtown.</p>
+            <p>
+              With over <em>100 vendors</em> present at the festival, there are many opportunities to be introduced to the rich <em>artisan</em> and <em>culinary</em> community in Ithaca. Our food vendors feature apple-centric and other fall <em>classics</em> for you to taste, and the craft vendors offer <em>homemade goods</em> like soaps, jewelry, sculptures, clothing, and more! This is the perfect place to learn about and support Ithaca's <em>small businesses</em> that encompass the heart of the town.
+            </p>
+              <!-- Source: Instructor provided content -->
+    <div class="fullsize-image">
+      <picture>
+            <img src="images/cider-apples-stand.jpg" alt="">
+       </picture>
+     <div class="overlay-text">
+         <h2>Food and Drinks</h2>
+            <h3>
+              Farm Fresh Apples & Produce
+          </h3>
+              <ul>
+                  <li>Schweigarts Sugar Shack</li>
+                  <li>Schoolyard Sugarbush</li>
+                  <li>A J Teeterfarm</li>
+                  <li>Littletree Orchards</li>
+                  <li>and more!</li>
+              </ul>
+              <!-- Source: Instructor provided content -->
+          <h3>
+              Cider Houses & Wineries
+          </h3>
+              <ul>
+                  <li>Blackduck Cidery</li>
+                  <li>Redbyrd Orchard</li>
+                  <li>South Hill Cider</li>
+                  <li>New Leaf Cider Co.</li>
+                  <li>and more!</li>
+              </ul>
+              <!-- Source: Instructor provided content -->
+          <h3>
+              Food Vendors
+          </h3>
+              <ul>
+                  <li>Macarollin</li>
+                  <li>Mr.Squeeze Lemonade</li>
+                  <li>Kettle Corn Shoppe</li>
+                  <li>SPM Empanadas</li>
+                  <li>and more!</li>
+              </ul>
+              <!-- Source: Instructor provided content -->
+      </div>
+    </div>
+    <div class="fullsize-image">
+      <picture>
+        <img src="images/craft.jpg" alt="">
+      </picture>
+     <div class="overlay-text">
+      <h2>Crafts</h2>
+          <ul>
+                <li>A&K Creations</li>
+                <li>Alchemist's Whim</li>
+                <li>All Forked Up Art</li>
+                <li>Anna Pausch Studios</li>
+                <li>Art Of Yen Ospina</li>
+                <li>Ashley Messana Jewelry</li>
+                <li>Black Rabbit Studio</li>
+                <li>Blue Toucan Studios - Fairy Doors</li>
+                <li>and more!</li>
+              </ul>
+            <!-- Source: Instructor provided content -->
+        </div>
+      </div>
+      <div class="fullsize-image">
+        <picture>
+          <img src="images/bandmusic.jpg" alt="">
+        </picture>
+       <div class="overlay-text">
+        <h2>Entertainment at Bernie Milton Pavilion</h2>
                 <cite class="picture-citation"><a href="https://www.mytwintiers.com/wp-content/uploads/sites/89/2022/10/Ithaca-Apple-Harvest-Festival-2022-2.jpg?w=900">My Twin Tiers</a></cite>
-                <article>
                         <h3>Saturday, October 1, 2022</h3>
                             <ul>
                                 <li>12:00pm - Rachel Beverly</li>
@@ -197,7 +154,6 @@
                                 <li>5:00pm - Neo Project</li>
                             </ul>
                     </article>
-                     <!-- Source: Instructor provided content -->
                     <article>
                         <h3>Sunday, October 2, 2022</h3>
                             <ul>
@@ -223,6 +179,7 @@
               </div>
             <!-- Source: Instructor provided content -->
         </div>
+  </main>
 <footer>
     <h2>Contact Us!</h2>
     <h3>Address</h3>

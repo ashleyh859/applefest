@@ -89,7 +89,7 @@ nav {
 }
 
 .fullscreen-image:hover img {
-  filter: brightness(70%); /* Apply a brightness effect on hover */
+  filter: brightness(70%);
 }
 
 .overlay-text {
@@ -105,6 +105,21 @@ nav {
   margin: 0;
 }
 
+.fullsize-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin-left: -175px;
+}
+
+.fullsize-image img{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center;
+  filter: brightness(50%);
+}
 
 .additional-text {
   opacity: 0;
