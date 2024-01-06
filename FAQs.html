@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
+  <link rel="icon" type="image/svg" href="/images/apple-harvest-logo.svg">
   <link rel="stylesheet"
   type="text/css"
   href="styles/site.css" >
@@ -13,29 +14,27 @@
 <body>
   <header>
     <div>
-        <nav id="widescreen">
-            <ul>
-                <li>
-                <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="exploreapplefest.html">Explore Apple Fest</a>
-                </li>
-                <li>
-                  <picture>
-                    <img src="images/apple-harvest-logo.svg" alt="">
-                  </picture>
-                  <!-- Source: Instructor provided content -->
-                </li>
-                <li>
-                  <a href="howtogetthere.html">How to Get There</a>
-                </li>
-                <li>
-                  <a href="FAQs.html">FAQs</a>
-              </li>
-            </ul>
-        </nav>
-    </div>
+      <nav id="widescreen">
+        <div class="headerlogo">
+          <picture>
+            <img src="images/apple-harvest-logo.svg" alt="">
+          </picture>
+        </div>
+        <div>
+          <ul class="desktop-nav-links">
+            <li>
+                <a href="index.html" aria-label="navigate to home"><strong>HOME</strong></a>
+            </li>
+            <li>
+                <a href="exploreapplefest.html" aria-label="navigate to exploring Apple Fest"><strong>EXPLORE APPLE FEST</strong></a>
+            </li>
+            <li>
+              <a href="FAQs.html"><strong>FAQS</strong></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</div>
     <!-- Narrow Hamburger Menu -->
     <div id="header">
       <button id="menubutton">≡</button>
@@ -61,19 +60,7 @@
     </nav>
 </header>
 <main>
-            <aside>
-                <h2>Apple Harvest Festival</h2>
-                <h3>Date and Time:</h3>
-                  <ul>
-                      <li>Friday, September 29: 12pm - 6pm</li>
-                      <li>Saturday, September 30: 10am - 6pm</li>
-                      <li>Sunday, October 1: 10am - 6pm</li>
-                  </ul>
-                <h3>Location:</h3>
-                  <p>Ithaca Commons</p>
-                  <p>Join us for three days of farm-fresh bites, local crafts, live music, and fall activities for all ages.</p>
-                   <!-- Source: Instructor provided content -->
-            </aside>
+
             <div class="faq_row">
               <div class="box">
                 <h3>How much money should I bring?</h3>
