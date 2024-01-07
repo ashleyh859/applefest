@@ -11,7 +11,7 @@ $(document).ready(function () {
 
 
   $(window).resize(function() {
-      if ($(document).width() < 650) {
+      if ($(document).width() < 850) {
           $("#navmenu").addClass("hidden")
           $("#menubutton").removeClass("hidden")
       } else {

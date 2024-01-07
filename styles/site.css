@@ -396,7 +396,7 @@ font-style: italic;
   display: none !important;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
   html {
     box-sizing: border-box;
   }
@@ -584,6 +584,7 @@ font-style: italic;
 
   .accordion-header {
     font-size: 20px;
+    text-align: left;
   }
 
   .accordion-content {
