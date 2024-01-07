@@ -35,29 +35,28 @@
             </div>
           </nav>
         </div>
-        <!-- Narrow Hamburger Menu -->
-        <div id="header">
-          <button id="menubutton">≡</button>
-          <picture id="logo">
-            <img src="images/apple-harvest-logo.svg" alt="">
-          </picture>
-        </div>
-          <nav id="navmenu" class="hidden">
-            <ul>
-                <li>
-                <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="exploreapplefest.html">Explore Apple Fest</a>
-                </li>
-                <li>
-                  <a href="howtogetthere.html">How to Get There</a>
-                </li>
-                <li>
-                  <a href="FAQs.html">FAQs</a>
-              </li>
-            </ul>
-        </nav>
+    <!-- Narrow Hamburger Menu -->
+    <div id="header">
+      <div class="centerlogo">
+        <picture>
+          <img src="images/apple-harvest-logo.svg" alt="">
+        </picture>
+      </div>
+      <button id="menubutton" aria-label="open hamburger menu">≡</button>
+      </div>
+          <nav id="navmenu" class="accessible-hidden">
+          <ul>
+            <li>
+              <a href="index.html" aria-label="navigate to home"><strong>HOME</strong></a>
+          </li>
+          <li>
+              <a href="exploreapplefest.html" aria-label="navigate to exploring Apple Fest"><strong>EXPLORE APPLE FEST</strong></a>
+          </li>
+          <li>
+            <a href="FAQs.html"><strong>FAQS</strong></a>
+          </li>
+          </ul>
+      </nav>
     </header>
     <main>
       <div class="fullscreen-image" >
@@ -138,7 +137,7 @@
 </footer>
 <script src="scripts/jquery-3.7.1.js"></script>
 <script src="scripts/hamburgermenu.js"></script>
-<script src="scripts/modal.js"></script>
+<script src="scripts/accordion.js"></script>
 </body>
 
 </html>
