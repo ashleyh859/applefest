@@ -20,6 +20,19 @@ body {
   display: none;
 }
 
+
+#menubutton {
+  display: none;
+  font-size: 30px;
+  background-color: transparent;
+  color: black;
+  z-index: 2;
+  border: 2px solid black;
+  cursor: pointer;
+  border: none;
+  margin-left:0px;
+}
+
 nav {
   background-color: #ffffff;
   padding: 10px 0;
@@ -659,9 +672,13 @@ font-style: italic;
     display: none !important;
   }
 
-  nav ul {
-    flex-direction: column;
-    text-align: center;
+  .accessible-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
   }
 
   #header{
@@ -672,11 +689,11 @@ font-style: italic;
     z-index: 2;
     position: fixed;
     top: 0;
-    max-width: 1200px;
+    width:100%;
     margin: 0 auto;
-    width: 100%;
-    background-color: #DABDAD;
-    padding: 8px 16px 8px 16px;
+    background-color: white;
+    padding: 6px 16px;
+    margin-bottom:28px;
   }
 
   #widescreen{
@@ -688,53 +705,52 @@ font-style: italic;
     position: fixed;
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.496);
+    border-color:black;
     z-index: 2;
     border:none;
     cursor: pointer;
+    order: 2;
   }
 
-  #menubutton {
-    max-width: 100%;
-    max-height: 100%;
+  .centerlogo {
+    margin-left: auto;
+    margin-right:auto;
   }
 
-  #logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-  }
-
-  #logo img{
-    max-width: 80%;
-    max-height: 80%;
-    width: auto;
-    height: auto;
+  .centerlogo img{
+    max-width:50%;
   }
 
   #navmenu {
     display: none;
     position: fixed;
-    top: 10px;
-    left: 0;
-    width:75%;
-    height: 100%;
-    background-color:#DABDAD;
-    color: #59010F;
+    top: 82px;
+    left:0px;
+    width:100%;
+    height: 20vh;
+    background-color:#ffffff;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 1;
     text-align: center;
+    opacity:.7;
   }
 
   #navmenu ul {
     list-style: none;
     padding: 0;
+    margin-bottom:10px;
     text-align: center;
-}
+    justify-content: space-around;
+  }
+
+  #navmenu ul a {
+    padding-bottom: 25px;
+    color:black;
+    display: inline-block;
+  }
 
   main {
     flex-direction: column;
