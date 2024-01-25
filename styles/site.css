@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
 html {
   font-size: 100%;
   }
 
 body {
-  font-family:Lato;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: #ffffff;
   color: #0a0101;
   margin-left:175px;
@@ -61,7 +59,7 @@ nav {
 
 .desktop-nav-links {
   list-style: none;
-  font-size: 15px;
+  font-size: 22px;
   display: flex;
   color:black;
 }
@@ -480,6 +478,7 @@ font-style: italic;
     margin-bottom:10px;
     text-align: left;
     justify-content: space-around;
+    font-size:18px;
   }
 
   #navmenu ul a {
@@ -499,7 +498,7 @@ font-style: italic;
   }
 
   .fullscreen-image {
-    margin-left: 0px;
+    margin-left: -10px;
   }
 
   .homepage-content{
@@ -529,7 +528,7 @@ font-style: italic;
     flex-direction: column;
     margin-top:20px;
     margin-bottom:20px;
-    margin-left: 0px;
+    margin-left: -10px;
   }
 
   .column img{
@@ -566,8 +565,8 @@ font-style: italic;
   }
 
   .fullsize-image {
-    margin-left: 0px;
     height:80vh;
+    margin-left: -10px;
   }
 
   .overlay-text {
