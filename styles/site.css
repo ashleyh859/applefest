@@ -87,14 +87,14 @@ nav {
 
 .fullscreen-image {
   position: relative;
-  width: 100vw;
+  width: 99vw;
   height: 65vh;
   overflow: hidden;
-  margin-left: -175px;
+  margin-left: -185px;
 }
 
 .fullscreen-image img{
-  width: 100vw;
+  width: 99vw;
   height: 65vh;
   object-fit: cover;
   object-position: center center;
@@ -124,14 +124,14 @@ nav {
 
 .fullsize-image {
   position: relative;
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   overflow: hidden;
-  margin-left: -175px;
+  margin-left: -185px;
 }
 
 .fullsize-image img{
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   object-fit: cover;
   object-position: center center;
@@ -221,9 +221,9 @@ nav {
   margin-top:100px;
   margin-bottom:100px;
   overflow: hidden;
-  margin-left: -175px;
+  margin-left: -185px;
   position: relative;
-  width: 100vw;
+  width: 99vw;
 }
 
 .column{
@@ -597,5 +597,6 @@ font-style: italic;
     margin-right: 0px;
     padding-top:100px;
     padding-bottom:100px;
+    margin-bottom:0px;
   }
 }
