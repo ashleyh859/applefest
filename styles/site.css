@@ -4,7 +4,7 @@ html {
 
 body {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   color: #0a0101;
   margin-left:175px;
   margin-right:175px;
@@ -32,7 +32,6 @@ body {
 }
 
 nav {
-  background-color: #ffffff;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
